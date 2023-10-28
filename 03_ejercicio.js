@@ -1,6 +1,6 @@
 var usuario = {
     nombre: "Lucas",
-    edad: 30, // Cambia 30 por tu edad real
+    edad: 30, 
     ciudad: "Granada"
   };
   
