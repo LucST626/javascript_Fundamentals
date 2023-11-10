@@ -1,19 +1,18 @@
-const cadena = "🦇🎃🎃🦇🦇🎃🦇🎃🎃🎃🦇🦇🎃🎃";
-
-function contarCalabazasYMurcielagos(cadena) {
-    let conteoCalabazas = 0;
-    let conteoMurcielagos = 0;
-
-    for (let i = 0; i < cadena.length; i++) {
-        if (cadena[i] === "🎃") {
-            conteoCalabazas++;
-        } else if (cadena[i] === "🦇") {
-            conteoMurcielagos++;
-        }
-    }
-
-    console.log(`Número de calabazas: ${conteoCalabazas}`);
-    console.log(`Número de murciélagos: ${conteoMurcielagos}`);
+const cadena = "xaaxxaxaaaxxaa"
+function cuentaCosas(string){
+console.log(string)
+let numero_a = 0
+let numero_x = 0
+for (var i =0; i< string.length; i++){
+    console.log(string[i])
+if (string[i] === "a"){
+        numero_a++
+    } else {
+        numero_x++
+    }         
 }
-
-contarCalabazasYMurcielagos(cadena);
+  console.log (numero_a, numero_x)
+  return [numero_a, numero_x]
+}
+const cuantas_cosas_hay = cuentaCosas(cadena)
+console.log(cuantas_cosas_hay)
